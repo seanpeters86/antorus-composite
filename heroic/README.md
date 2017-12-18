@@ -9,3 +9,7 @@ Ideally all of these fight types would be patchwerk, and we would add in raid ev
 ## Felhounds of Sargeras
 - 250s fight length
 - Patchwerk
+
+## Antoran High Command
+- 480s fight length
+- Patchwerk

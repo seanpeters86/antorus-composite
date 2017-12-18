@@ -1,5 +1,12 @@
 # movement
+# mines spawn every 10s, assume you move for 1s every 30s
+raid_events+=/movement,cooldown=30,duration=1,first=10
 
 # adds
+# TODO make it so the adds cant be stunned, but can be silenced.
+# 3 adds spawn after 8s for 20s every 30s until Erodus spawns at about 3minutes in
+raid_events+=/adds,count=3,first=8,duration=20,cooldown=30,max_distance=30,last=180
+# After Erodus leaves adds come back in
+raid_events+=/adds,count=3,first=275,duration=20,cooldown=30,max_distance=30
 
 # boss targets
