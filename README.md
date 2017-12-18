@@ -21,3 +21,5 @@ Default raid event for heavy movement:
 ```coffee
 raid_events+=/movement,players_only=1,first=10,distance=25,duration=4
 ```
+
+Just a note, if you are using an editor for this you can use the "coffee" language for syntax highlighting. It works decently well.
