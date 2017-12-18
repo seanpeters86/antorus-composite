@@ -1,5 +1,11 @@
 # movement
+# consuming sphere happens about every minute for about 15 seconds
+raid_events+=/movement,cooldown=60,duration=15,first=60
 
 # adds
 
 # boss targets
+# add in second boss spread away from the first boss
+enemy=Fluffy_Pillow
+enemy=enemy2
+raid_events+=/move_enemy,name=enemy2,cooldown=2000,duration=1000,x=-27,y=-27
