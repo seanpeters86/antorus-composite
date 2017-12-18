@@ -1,0 +1,21 @@
+# movement
+# decimation comes out about every 10s during the phases where the boss is active, will make a forced event every 30s (i.e. youll get targeted by every 3rd decimation)
+# first set before adds come out
+raid_events+=/movement,cooldown=30,duration=5,last=60
+# second set in between add phases
+raid_events+=/movement,cooldown=30,duration=5,first=85,last=145
+# third set after adds come out
+raid_events+=/movement,cooldown=30,duration=5,first=170
+
+# adds
+# decimator/anihilator come out twice for ~25s each
+raid_events+=/adds,count=2,cooldown=300,duration=25,first=60,last=120
+# second set of adds only has 1 target
+raid_events+=/adds,count=1,cooldown=300,duration=25,first=145
+
+# boss targets
+# decimator/anihilator come out and invuln the Boss
+# first event to happen in the first 2 minutes only once after 1 minute
+raid_events+=/invulnerable,cooldown=300,duration=25,first=60,last=120
+# second event to happen in the last 2 minutes only once after 1 minute
+raid_events+=/invulnerable,cooldown=300,duration=25,first=145
