@@ -1,12 +1,26 @@
 # movement
 # mines spawn every 10s, assume you move for 1s every 30s
 raid_events+=/movement,cooldown=30,duration=1,first=10
+# Bladestorm movement, not sure how to model
+raid_events+=/movement,cooldown=30,duration=1,first=15,last=180
+raid_events+=/movement,cooldown=30,duration=1,first=285,last=450
 
 # adds
 # TODO make it so the adds cant be stunned, but can be silenced.
 # 3 adds spawn after 8s for 20s every 30s until Erodus spawns at about 3minutes in
-raid_events+=/adds,count=3,first=8,duration=20,cooldown=30,max_distance=30,last=180
+raid_events+=/adds,count=2,first=8,duration=20,cooldown=30,max_distance=30,last=90
+raid_events+=/adds,count=1,first=8,duration=12,cooldown=30,max_distance=30,last=90
+# Boss 2 adds live slightly longer
+raid_events+=/adds,count=2,first=98,duration=25,cooldown=30,max_distance=30,last=180
+raid_events+=/adds,count=1,first=98,duration=17,cooldown=30,max_distance=30,last=180
 # After Erodus leaves adds come back in
-raid_events+=/adds,count=3,first=275,duration=20,cooldown=30,max_distance=30
+raid_events+=/adds,count=2,first=275,duration=20,cooldown=30,max_distance=30,last=360
+raid_events+=/adds,count=1,first=275,duration=12,cooldown=30,max_distance=30,last=360
+raid_events+=/adds,count=2,first=365,duration=25,cooldown=30,max_distance=30,last=450
+raid_events+=/adds,count=1,first=365,duration=17,cooldown=30,max_distance=30,last=450
 
 # boss targets
+# Temporary Council fix
+raid_events+=/invulnerable,cooldown=270,duration=182,first=90
+raid_events+=/adds,count=1,first=92,duration=88,cooldown=180,max_distance=30
+raid_events+=/adds,count=1,first=182,duration=88,cooldown=180,max_distance=30
