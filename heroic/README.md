@@ -17,3 +17,11 @@ Ideally all of these fight types would be patchwerk, and we would add in raid ev
 ## Portal Keeper Hasabel
 - 540s fight length
 - Patchwerk
+
+## The Defense of Eonar
+- 350s fight length
+- Patchwerk
+
+## Imonar the Soulhunter
+- 330s fight length
+- Patchwerk
