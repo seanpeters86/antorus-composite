@@ -46,6 +46,8 @@ raid_events+=/movement,cooldown=30,duration=1,first=400,players_only=1,player_ch
 # Storm of Darkness
 # could spawn one under you, so not totally 100%
 raid_events+=/movement,cooldown=60,duration=2,duration_stddev=1,first=30,last=330,players_only=1,player_chance=0.8
+# Shadow Blades
+raid_events+=/movement,cooldown=30,duration=1,first=12,last=375,players_only=1,player_chance=0.1
 
 # adds
 # Machinations of Aman'Thul - 4
