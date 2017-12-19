@@ -1,0 +1,1 @@
+python simca.py -p hc_garothi_worldbreaker.simc,hc_felhounds_of_sargeras.simc,hc_antoran_high_command.simc,hc_portal_keeper_hasabel.simc,hc_eonar.simc,hc_imonar_the_soulhunter.simc,hc_kingaroth.simc,hc_varimathras.simc,hc_coven_of_shivarra.simc,hc_aggramar.simc,hc_argus_the_unmaker.simc -f pw -i 3000 -t 400 -b 1 -c 4 -json -o HTML --resume-mode && python simparser.py -c -s -r
