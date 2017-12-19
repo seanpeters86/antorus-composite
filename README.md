@@ -1,5 +1,7 @@
-# antorus-composite
+# Antorus Composite 2.0
 The goal of this repository is to create and store SimC [Raid Events](https://github.com/simulationcraft/simc/wiki/RaidEvents) for fights in Antorus the Burning Throne.
+
+[Testing Results](https://docs.google.com/spreadsheets/d/1XVWD7TKzBcGKOs88f3sBmg4dmJeeWYSm81DmJUCDXKw/edit?usp=sharing)
 
 Each fight type will consist of the following things:
 - Movement
