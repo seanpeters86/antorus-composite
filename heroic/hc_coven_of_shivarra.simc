@@ -4,7 +4,7 @@ raid_events+=/movement,cooldown=30,duration=1,first=10,last=200,players_only=1,p
 raid_events+=/movement,cooldown=30,duration=1,first=400,players_only=1,player_chance=0.2
 # Storm of Darkness
 # could spawn one under you, so not totally 100%
-raid_events+=/movement,cooldown=60,duration=3,first=30,last=330,players_only=1,player_chance=0.8
+raid_events+=/movement,cooldown=60,duration=2,duration_stddev=1,first=30,last=330,players_only=1,player_chance=0.8
 
 # adds
 # Machinations of Aman'Thul - 4
