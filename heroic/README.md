@@ -25,3 +25,15 @@ Ideally all of these fight types would be patchwerk, and we would add in raid ev
 ## Imonar the Soulhunter
 - 330s fight length
 - Patchwerk
+
+## Kin'Garoth
+- 500s fight length
+- Patchwerk
+
+## Varimathras
+- 300s fight length
+- Patchwerk
+
+## Coven of Shivarra
+- 550s fight length
+- Patchwerk
