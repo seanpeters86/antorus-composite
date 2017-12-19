@@ -13,3 +13,7 @@ Ideally all of these fight types would be patchwerk, and we would add in raid ev
 ## Antoran High Command
 - 480s fight length
 - Patchwerk
+
+## Portal Keeper Hasabel
+- 540s fight length
+- Patchwerk
