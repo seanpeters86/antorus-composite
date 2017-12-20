@@ -37,3 +37,7 @@ Ideally all of these fight types would be patchwerk, and we would add in raid ev
 ## Coven of Shivarra
 - 550s fight length
 - Patchwerk
+
+## Aggramar
+- 480s fight length
+- Patchwerk
