@@ -3,11 +3,11 @@
 # first set before adds come out
 raid_events+=/movement,cooldown=31,duration=5,last=85,player_chance=0.3,players_only=1
 # Surging Fel during first add phase
-raid_events+=/movement,cooldown=20,duration=2,first=85,last=110,player_chance=0.2,players_only=1
+raid_events+=/movement,cooldown=7,duration=2,first=85,last=110,player_chance=0.2,players_only=1
 # second set in between add phases
 raid_events+=/movement,cooldown=16,duration=5,first=110,last=215,player_chance=0.2,players_only=1
 # Surging Fel during and after second add phase
-raid_events+=/movement,cooldown=20,duration=2,first=215,player_chance=0.2,players_only=1
+raid_events+=/movement,cooldown=7,duration=2,first=215,player_chance=0.2,players_only=1
 
 # adds
 # decimator/anihilator come out twice for ~25s each
