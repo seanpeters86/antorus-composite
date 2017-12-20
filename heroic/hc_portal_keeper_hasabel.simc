@@ -19,8 +19,8 @@ raid_events+=/adds,count=1,first=46,duration=2,cooldown=50,max_distance=30
 raid_events+=/adds,count=1,first=47,duration=2,cooldown=50,max_distance=30
 raid_events+=/adds,count=1,first=48,duration=2,cooldown=50,max_distance=30
 # Skitterers
-raid_events+=/adds,count=1,first=238,duration=4,cooldown=50,max_distance=30
-raid_events+=/adds,count=1,first=243,duration=4,cooldown=50,max_distance=30
+raid_events+=/adds,count=1,first=238,duration=5,cooldown=50,max_distance=30
+raid_events+=/adds,count=1,first=243,duration=5,cooldown=50,max_distance=30
 # Hungering Stalkers
 raid_events+=/adds,count=1,first=389,duration=4,cooldown=50,max_distance=30
 raid_events+=/adds,count=1,first=393,duration=4,cooldown=50,max_distance=30
