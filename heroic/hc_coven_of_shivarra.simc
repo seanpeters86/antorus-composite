@@ -32,4 +32,4 @@ raid_events+=/adds,count=1,first=270,duration=30,cooldown=5000,max_distance=30
 enemy=Fluffy_Pillow
 enemy=enemy2
 # coven must be 18 yards away from each other
-raid_events+=/move_enemy,name=enemy2,cooldown=2000,duration=1000,distance=18
+raid_events+=/move_enemy,name=enemy2,cooldown=2000,duration=1000,distance_min=18,distance_max=30
