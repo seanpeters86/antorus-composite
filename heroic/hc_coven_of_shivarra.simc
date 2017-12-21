@@ -16,17 +16,17 @@ raid_events+=/adds,count=1,first=95,duration=20,cooldown=5000,max_distance=30
 raid_events+=/adds,count=1,first=95,duration=40,cooldown=5000,max_distance=30
 raid_events+=/adds,count=1,first=95,duration=40,cooldown=5000,max_distance=30
 # Fury of Golganneth - 4
-raid_events+=/adds,count=1,first=180,duration=20,cooldown=5000,max_distance=30
-raid_events+=/adds,count=1,first=180,duration=20,cooldown=5000,max_distance=30
-raid_events+=/adds,count=1,first=180,duration=20,cooldown=5000,max_distance=30
-raid_events+=/adds,count=1,first=180,duration=30,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=190,duration=20,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=190,duration=20,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=190,duration=20,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=190,duration=30,cooldown=5000,max_distance=30
 # Flames of Khaz'goroth - spawn 8 assume 6 in range
-raid_events+=/adds,count=1,first=270,duration=15,cooldown=5000,max_distance=30
-raid_events+=/adds,count=1,first=270,duration=15,cooldown=5000,max_distance=30
-raid_events+=/adds,count=1,first=270,duration=20,cooldown=5000,max_distance=30
-raid_events+=/adds,count=1,first=270,duration=25,cooldown=5000,max_distance=30
-raid_events+=/adds,count=1,first=270,duration=25,cooldown=5000,max_distance=30
-raid_events+=/adds,count=1,first=270,duration=30,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=285,duration=10,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=285,duration=10,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=285,duration=15,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=285,duration=20,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=285,duration=25,cooldown=5000,max_distance=30
+raid_events+=/adds,count=1,first=285,duration=30,cooldown=5000,max_distance=30
 
 # boss targets
 enemy=Fluffy_Pillow
@@ -34,3 +34,5 @@ enemy=enemy2
 # coven must be 18 yards away from each other
 raid_events+=/move_enemy,name=enemy2,cooldown=2000,duration=1000,distance_min=18,distance_max=30
 
+optimal_raid=1
+bloodlust_time=95
