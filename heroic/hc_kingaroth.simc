@@ -13,9 +13,9 @@ raid_events+=/movement,cooldown=5,duration=2,first=405,player_chance=0.1,players
 
 # adds
 # Your add. Going to assume no shenanigans.
-raid_events+=/adds,count=1,name=youradd,cooldown=120,duration=30,first=40
+raid_events+=/adds,count=1,cooldown=120,duration=30,first=40
 # The third add.
-raid_events+=/adds,count=1,name=thirdadd,cooldown=120,duration=30,first=71
+raid_events+=/adds,count=1,cooldown=120,duration=30,first=71
 
 # boss targets
 # TODO: Replace with moving boss away for more realistic model? Boss still takes 1% damage, can proc ToF, and often gets refreshed on
@@ -29,3 +29,6 @@ raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.4,first=55,p
 raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.3,first=58,players_only=1
 raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.2,first=61,players_only=1
 raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.1,first=64,players_only=1
+
+optimal_raid=1
+bloodlust_time=162
