@@ -1,15 +1,15 @@
 # movement
-# Ruiner
-raid_events+=/movement,cooldown=25,duration=4,first=30,player_chance=0.3,players_only=1,last=40
-raid_events+=/movement,cooldown=25,duration=4,first=100,player_chance=0.3,players_only=1,last=135
-raid_events+=/movement,cooldown=25,duration=4,first=215,player_chance=0.3,players_only=1,last=280
-raid_events+=/movement,cooldown=25,duration=4,first=330,player_chance=0.3,players_only=1,last=400
-raid_events+=/movement,cooldown=25,duration=4,first=450,player_chance=0.3,players_only=1
+# Ruiner. Simc limitation (can't stutter step, and can't fake a stutter step like on Garothi since this mechanic is only a chance).
+raid_events+=/movement,cooldown=25,duration=3,duration_stddev=1,first=30,player_chance=0.25,players_only=1,last=40
+raid_events+=/movement,cooldown=25,duration=3,duration_stddev=1,first=100,player_chance=0.25,players_only=1,last=135
+raid_events+=/movement,cooldown=25,duration=3,duration_stddev=1,first=215,player_chance=0.25,players_only=1,last=280
+raid_events+=/movement,cooldown=25,duration=3,duration_stddev=1,first=330,player_chance=0.25,players_only=1,last=400
+raid_events+=/movement,cooldown=25,duration=3,duration_stddev=1,first=450,player_chance=0.25,players_only=1
 # Swirls
-raid_events+=/movement,cooldown=5,duration=2,first=45,player_chance=0.1,players_only=1,last=100
-raid_events+=/movement,cooldown=5,duration=2,first=140,player_chance=0.1,players_only=1,last=215
-raid_events+=/movement,cooldown=5,duration=2,first=285,player_chance=0.1,players_only=1,last=330
-raid_events+=/movement,cooldown=5,duration=2,first=405,player_chance=0.1,players_only=1,last=450
+raid_events+=/movement,cooldown=5,duration=1,duration_stddev=0.3,first=45,player_chance=0.1,players_only=1,last=80
+raid_events+=/movement,cooldown=5,duration=1,duration_stddev=0.3,first=140,player_chance=0.1,players_only=1,last=195
+raid_events+=/movement,cooldown=5,duration=1,duration_stddev=0.3,first=285,player_chance=0.1,players_only=1,last=310
+raid_events+=/movement,cooldown=5,duration=1,duration_stddev=0.3,first=405,player_chance=0.1,players_only=1,last=430
 
 # adds
 # Your add. Going to assume no shenanigans.
@@ -30,5 +30,9 @@ raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.3,first=58,p
 raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.2,first=61,players_only=1
 raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.1,first=64,players_only=1
 
+raid_events+=/stun,cooldown=1000,duration=6
+
 optimal_raid=1
 bloodlust_time=162
+
+priest_suppress_sephuz=1
