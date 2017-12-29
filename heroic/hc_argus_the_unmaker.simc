@@ -16,7 +16,6 @@ raid_events+=/movement,cooldown=35,duration=1.5,duration_stddev=0.5,first=160,la
 # Swirls
 raid_events+=/movement,cooldown=5,duration=1.5,duration_stddev=0.5,first=485,players_only=1,player_chance=0.15
 
-
 # adds
 # Constellar Designates
 raid_events+=/adds,count=1,first=260,duration=45,cooldown=10000,min_distance=15,max_distance=35
@@ -30,8 +29,6 @@ raid_events+=/adds,count=1,first=260,duration=115,cooldown=10000,min_distance=15
 raid_events+=/adds,count=3,first=500,duration=3,cooldown=10000,min_distance=15,max_distance=35
 raid_events+=/adds,count=4,first=545,duration=4,cooldown=10000,min_distance=15,max_distance=35
 raid_events+=/adds,count=5,first=590,duration=5,cooldown=10000,min_distance=15,max_distance=35
-
-
 
 # boss targets
 raid_events+=/invulnerable,cooldown=10000,duration=160,first=243
