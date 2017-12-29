@@ -28,14 +28,15 @@ done
 
 echo "Running simulation with $ITERATIONS iterations."
 
-python simca.py -p hc_garothi_worldbreaker.simc,hc_varimathras.simc -f pw -i $ITERATIONS -t 300 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
+python simca.py -p hc_garothi_worldbreaker.simc -f pw -i $ITERATIONS -t 300 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
 python simca.py -p hc_felhounds_of_sargeras.simc -f pw -i $ITERATIONS -t 250 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
-python simca.py -p  hc_antoran_high_command.simc -f pw -i $ITERATIONS -t 480 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
+python simca.py -p hc_antoran_high_command.simc -f pw -i $ITERATIONS -t 480 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
 python simca.py -p hc_portal_keeper_hasabel.simc -f pw -i $ITERATIONS -t 540 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
-python simca.py -p  hc_eonar.simc -f pw -i $ITERATIONS -t 350 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
-python simca.py -p  hc_imonar_the_soulhunter.simc -f pw -i $ITERATIONS -t 330 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
-python simca.py -p  hc_kingaroth.simc -f pw -i $ITERATIONS -t 500 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
-python simca.py -p  hc_coven_of_shivarra.simc -f pw -i $ITERATIONS -t 550 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
-python simca.py -p  hc_aggramar.simc -f pw -i $ITERATIONS -t 420 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
-python simca.py -p  hc_argus_the_unmaker.simc -f pw -i $ITERATIONS -t 600 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
+python simca.py -p hc_eonar.simc -f pw -i $ITERATIONS -t 350 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
+python simca.py -p hc_imonar_the_soulhunter.simc -f pw -i $ITERATIONS -t 330 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
+python simca.py -p hc_kingaroth.simc -f pw -i $ITERATIONS -t 500 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
+python simca.py -p hc_varimathras.simc -f pw -i $ITERATIONS -t 300 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
+python simca.py -p hc_coven_of_shivarra.simc -f pw -i $ITERATIONS -t 550 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
+python simca.py -p hc_aggramar.simc -f pw -i $ITERATIONS -t 420 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
+python simca.py -p hc_argus_the_unmaker.simc -f pw -i $ITERATIONS -t 600 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
 python simparser.py -c -r
