@@ -18,20 +18,20 @@ raid_events+=/movement,cooldown=5,duration=1.5,duration_stddev=0.5,first=485,pla
 
 # adds
 # Constellar Designates
-raid_events+=/adds,count=1,first=260,duration=45,cooldown=10000,min_distance=15,max_distance=35
-raid_events+=/adds,count=1,first=260,duration=70,cooldown=10000,min_distance=15,max_distance=35
-raid_events+=/adds,count=1,first=260,duration=80,cooldown=10000,min_distance=15,max_distance=35
-raid_events+=/adds,count=1,first=260,duration=90,cooldown=10000,min_distance=15,max_distance=35
-raid_events+=/adds,count=1,first=260,duration=100,cooldown=10000,min_distance=15,max_distance=35
-raid_events+=/adds,count=1,first=260,duration=115,cooldown=10000,min_distance=15,max_distance=35
-raid_events+=/adds,count=1,first=260,duration=115,cooldown=10000,min_distance=15,max_distance=35
+raid_events+=/adds,count=1,first=260,duration=45,cooldown=10000,min_distance=15,max_distance=30
+raid_events+=/adds,count=1,first=260,duration=70,cooldown=10000,min_distance=15,max_distance=30
+raid_events+=/adds,count=1,first=260,duration=80,cooldown=10000,min_distance=15,max_distance=30
+raid_events+=/adds,count=1,first=260,duration=90,cooldown=10000,min_distance=15,max_distance=30
+raid_events+=/adds,count=1,first=260,duration=100,cooldown=10000,min_distance=15,max_distance=30
+raid_events+=/adds,count=1,first=260,duration=115,cooldown=10000,min_distance=15,max_distance=30
+raid_events+=/adds,count=1,first=260,duration=115,cooldown=10000,min_distance=15,max_distance=30
 # Orbs
-raid_events+=/adds,count=3,first=500,duration=3,cooldown=10000,min_distance=15,max_distance=35
-raid_events+=/adds,count=4,first=545,duration=4,cooldown=10000,min_distance=15,max_distance=35
-raid_events+=/adds,count=5,first=590,duration=5,cooldown=10000,min_distance=15,max_distance=35
+raid_events+=/adds,count=3,first=500,duration=3,cooldown=10000,min_distance=15,max_distance=30
+raid_events+=/adds,count=4,first=545,duration=4,cooldown=10000,min_distance=15,max_distance=30
+raid_events+=/adds,count=5,first=590,duration=5,cooldown=10000,min_distance=15,max_distance=30
 
 # boss targets
-raid_events+=/invulnerable,cooldown=10000,duration=160,first=243
+raid_events+=/invulnerable,cooldown=10000,duration=160,first=243,cooldown_stddev=0.01,duration_stddev=0.01
 raid_events+=/damage_done_buff,cooldown=10000,duration=27,multiplier=0.05,first=23
 raid_events+=/damage_done_buff,cooldown=10000,duration=27,multiplier=0.1,first=50
 raid_events+=/damage_done_buff,cooldown=10000,duration=27,multiplier=0.15,first=77
