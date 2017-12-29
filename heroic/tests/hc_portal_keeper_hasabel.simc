@@ -41,7 +41,7 @@ off_hand=secrets_of_the_void,id=133958
 
 # movement
 # Felstorm Barrage
-raid_events+=/movement,cooldown=35,duration=3,duration_stddev=1,first=25,players_only=1
+raid_events+=/movement,cooldown=35,duration=2.5,duration_stddev=1,first=25,players_only=1
 
 # adds
 # Imps
@@ -60,10 +60,12 @@ raid_events+=/adds,count=1,first=46,duration=2,cooldown=50,max_distance=30
 raid_events+=/adds,count=1,first=47,duration=2,cooldown=50,max_distance=30
 raid_events+=/adds,count=1,first=48,duration=2,cooldown=50,max_distance=30
 # Skitterers
-raid_events+=/adds,count=1,first=238,duration=4,cooldown=50,max_distance=30
-raid_events+=/adds,count=1,first=243,duration=4,cooldown=50,max_distance=30
+raid_events+=/adds,count=1,first=238,duration=5,cooldown=50,max_distance=30
+raid_events+=/adds,count=1,first=243,duration=5,cooldown=50,max_distance=30
 # Hungering Stalkers
 raid_events+=/adds,count=1,first=389,duration=4,cooldown=50,max_distance=30
 raid_events+=/adds,count=1,first=393,duration=4,cooldown=50,max_distance=30
 
 # boss targets
+optimal_raid=1
+bloodlust_percent=30
