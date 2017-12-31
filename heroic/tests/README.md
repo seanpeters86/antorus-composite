@@ -12,7 +12,9 @@ Put the two python scripts and the contents of the `tests` folder in the root of
 
 This script automates simca.py for the specific profiles used for convenience.
 ```
-# ./t21_heroic_antorus.sh [-i VALUE, -w]
+# ./t21_heroic_antorus.sh [-i VALUE, -w, -c VALUE, -o FILENAME.txt]
 ```
-- Use `-i VALUE` to specify iterations the sims should use (default: `10000`)
-- USE `-w` to enable statweights.
+- `-i VALUE` to specify iterations the sims should use (default: `10000`)
+- `-w` to enable statweights.
+- `-c VALUE` to specify number of cores (threads) the sims should use (default: `4`)
+- `-o FILENAME.txt` to specify a new output file name. Output should contain `.txt` at the end. (default: `antorus-composite.txt`)

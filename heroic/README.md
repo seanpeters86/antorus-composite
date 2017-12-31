@@ -41,3 +41,7 @@ Ideally all of these fight types would be patchwerk, and we would add in raid ev
 ## Aggramar
 - 480s fight length
 - Patchwerk
+
+## Argus
+- 600s fight length
+- Patchwerk
