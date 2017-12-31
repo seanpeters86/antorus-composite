@@ -64,7 +64,7 @@ raid_events+=/invulnerable,cooldown=1000,duration=26,first=84
 # second event to happen in the last 2 minutes only once after 1 minute
 raid_events+=/invulnerable,cooldown=1000,duration=26,first=194
 
+# fight modifications
 optimal_raid=1
 bloodlust_time=-80
-
 priest_suppress_sephuz=1

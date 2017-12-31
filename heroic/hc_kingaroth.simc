@@ -30,9 +30,10 @@ raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.3,first=58
 raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.2,first=61
 raid_events+=/damage_done_buff,cooldown=120,duration=3,multiplier=0.1,first=64
 
+# TODO: re-test this, looks like it stuns at the start of the fight for 6 seconds?
 raid_events+=/stun,cooldown=1000,duration=6
 
+# fight modifications
 optimal_raid=1
 bloodlust_time=162
-
 priest_suppress_sephuz=1

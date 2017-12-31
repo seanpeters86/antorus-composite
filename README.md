@@ -1,18 +1,20 @@
 # Antorus Composite 2.0
-The goal of this repository is to create and store SimC [Raid Events](https://github.com/simulationcraft/simc/wiki/RaidEvents) for fights in Antorus the Burning Throne.
+The goal of this repository is to create and store SimC [Raid Events](https://github.com/simulationcraft/simc/wiki/RaidEvents) for fights in Antorus, the Burning Throne.
 
 [Testing Results](https://docs.google.com/spreadsheets/d/1XVWD7TKzBcGKOs88f3sBmg4dmJeeWYSm81DmJUCDXKw/edit?usp=sharing)
 
 Each fight type will consist of the following things:
 - Movement
 - Adds
-- Number of Boss Targets
+- Boss Targets/Invulnerabilities
+- Fight Modifications
 
 In addition, each folder for the various difficulties will include a readme file to specify how the sim should be run with the following parameters:
 - Fight Length
 - Patchwerk, Light Movement, or Heavy Movement
 
 ## Movement profiles
+Ideally the sim profiles should be developed with all movement mechanics added custom, and then running the sim on Patchwerk to get the most tailored results.
 
 Default raid event for light movement:
 ```coffee

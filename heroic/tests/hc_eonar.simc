@@ -60,3 +60,5 @@ raid_events+=/adds,count=2,first=39,duration=3,cooldown=5000
 # 1 Fel-Infused Destructor
 raid_events+=/adds,count=1,first=40,duration=10,cooldown=5000
 # boss targets
+
+# fight modifications

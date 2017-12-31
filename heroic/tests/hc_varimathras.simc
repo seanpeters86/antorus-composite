@@ -48,3 +48,5 @@ raid_events+=/movement,cooldown=30,duration=5,first=36,players_only=1,player_cha
 # adds
 
 # boss targets
+
+# fight modifications

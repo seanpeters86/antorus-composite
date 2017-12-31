@@ -23,5 +23,6 @@ raid_events+=/invulnerable,cooldown=1000,duration=25,first=110
 # Second transition
 raid_events+=/invulnerable,cooldown=1000,duration=40,first=250
 
+# fight modifications
 optimal_raid=1
 bloodlust_time=295

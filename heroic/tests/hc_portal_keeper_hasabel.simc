@@ -67,5 +67,7 @@ raid_events+=/adds,count=1,first=389,duration=4,cooldown=50,max_distance=30
 raid_events+=/adds,count=1,first=393,duration=4,cooldown=50,max_distance=30
 
 # boss targets
+
+# fight modifications
 optimal_raid=1
 bloodlust_percent=30
