@@ -40,3 +40,4 @@ python simca.py -p hc_coven_of_shivarra.simc -f pw -i $ITERATIONS -t 550 $STATWE
 python simca.py -p hc_aggramar.simc -f pw -i $ITERATIONS -t 420 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
 python simca.py -p hc_argus_the_unmaker.simc -f pw -i $ITERATIONS -t 600 $STATWEIGHTS -v 0 -b 1 -c 4 -json -o HTML --resume-mode &&
 python simparser.py -c -r
+read
