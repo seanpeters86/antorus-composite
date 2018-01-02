@@ -12,12 +12,12 @@ while getopts "i:wc:o:" OPTION
 do
 	case $OPTION in
 		i)
-			# check if integer
+			#TODO check if integer
       ITERATIONS=$OPTARG
       ;;
 		w)
       echo "Running simulation with weights"
-			# check if iterations is at least 10,000
+			#TODO check if iterations is at least 10,000
 			if [ $ITERATIONS < 10000 ]; then
 				echo "Iterations count was set too low for stat weights. Setting interations to 10,000"
 				ITERATIONS=10000
@@ -26,11 +26,11 @@ do
       STATWEIGHTS="-s -n int,haste,crit,mastery,vers"
       ;;
 		c)
-			# check if integer
+			#TODO check if integer
 			CORES=$OPTARG
 			;;
 		o)
-			# check if contains .txt at the end
+			#TODO check if contains .txt at the end
 			OUTPUT=$OPTARG
 			;;
 		\?)
