@@ -38,5 +38,6 @@ raid_events+=/damage_done_buff,cooldown=10000,duration=27,multiplier=0.15,first=
 raid_events+=/damage_done_buff,cooldown=10000,duration=30,multiplier=0.2,first=104
 raid_events+=/damage_done_buff,cooldown=10000,duration=100,multiplier=0.1,first=270
 
+# fight modifications
 optimal_raid=1
 bloodlust_time=460
