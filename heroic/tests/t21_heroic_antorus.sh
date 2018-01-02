@@ -55,6 +55,7 @@ python simca.py -p hc_imonar_the_soulhunter.simc -f pw -i $ITERATIONS -t 330 $ST
 python simca.py -p hc_kingaroth.simc -f pw -i $ITERATIONS -t 500 $STATWEIGHTS -v 0 -b 1 -c $CORES -json -o HTML --resume-mode
 python simca.py -p hc_varimathras.simc -f pw -i $ITERATIONS -t 300 $STATWEIGHTS -v 0 -b 1 -c $CORES -json -o HTML --resume-mode
 python simca.py -p hc_coven_of_shivarra.simc -f pw -i $ITERATIONS -t 550 $STATWEIGHTS -v 0 -b 1 -c $CORES -json -o HTML --resume-mode
-python simca.py -p hc_aggramar.simc -f pw -i $ITERATIONS -t 420 $STATWEIGHTS -v 0 -b 1 -c $CORES -json -o HTML --resume-mode 
+python simca.py -p hc_aggramar.simc -f pw -i $ITERATIONS -t 420 $STATWEIGHTS -v 0 -b 1 -c $CORES -json -o HTML --resume-mode
 python simca.py -p hc_argus_the_unmaker.simc -f pw -i $ITERATIONS -t 600 $STATWEIGHTS -v 0 -b 1 -c $CORES -json -o HTML --resume-mode
 python simparser.py -c -r -o $OUTPUT
+read
