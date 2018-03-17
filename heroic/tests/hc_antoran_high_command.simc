@@ -63,5 +63,6 @@ raid_events+=/adds,count=1,first=365,duration=22,cooldown=30,max_distance=30,las
 # boss targets
 
 # fight modifications
+# compensate damage from debuff by giving the player a multiplier
 raid_events+=/damage_done_buff,cooldown=270,duration=87,multiplier=0.21,first=3,players_only=1
 raid_events+=/damage_done_buff,cooldown=270,duration=177,multiplier=0.12,first=93,players_only=1
